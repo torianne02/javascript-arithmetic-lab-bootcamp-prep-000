@@ -15,13 +15,13 @@ function divide(n1, n2) {
 }
 
 function inc(n) {
-  var output = n++;
-  return output;
+ // var output = n++;
+  return n += 1;
 }
 
 function dec(n) {
-  var output = n--;
-  return output;
+ // var output = n--;
+  return n -= 1;
 }
 
 function makeInt(n) {
